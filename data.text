@@ -1,15 +1,14 @@
 
  Table's name: used cars for sale
 
- id
- 
- car_brand
- car_model
- frame_year
- selling_price
- number_of_kilometers
- car_color
- wheel_brand
- engine_model
- type_of_exhaust_pipe
- 
+ id                                               Int                             MEDIUMINT UNSIGNED
+ car_brand                                        String                          VARCHAR(25)
+ car_model                                        String                          VARCHAR(250)
+ frame_year                                       Date                            YEAR
+ selling_price                                    Int                             MEDIUMINT
+ number_of_kilometers                             Int                             MEDIUMINT
+ car_color                                        String                          VARCHAR(20)
+ wheel_brand                                      String                          VARCHAR(15)
+ engine_model                                     String                          VARCHAR(20)
+ type_of_exhaust_pipe                             String                          VARCHAR(20)
+ description                                      String                          TEXT
