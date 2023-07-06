@@ -1,7 +1,7 @@
 
  Table's name: used cars for sale
 
- id                                               Int                             MEDIUMINT UNSIGNED AUTOINCREMENT PRIMARY_KEY 
+ id                                               Int                             MEDIUMINT  AUTOINCREMENT PRIMARY_KEY 
  car_brand                                        String                          VARCHAR(25) NOT NULL
  car_model                                        String                          VARCHAR(250) NOT NULL
  frame_year                                       Date                            YEAR         NOT NULL
