@@ -1,0 +1,15 @@
+
+ Table's name: used cars for sale
+
+ id
+ 
+ car_brand
+ car_model
+ frame_year
+ selling_price
+ number_of_kilometers
+ car_color
+ wheel_brand
+ engine_model
+ type_of_exhaust_pipe
+ 
