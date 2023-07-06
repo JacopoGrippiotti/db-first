@@ -5,7 +5,7 @@
  car_brand                                        String                          VARCHAR(25)
  car_model                                        String                          VARCHAR(250)
  frame_year                                       Date                            YEAR
- selling_price                                    Int                             MEDIUMINT
+ selling_price                                    Float                           (8,2)
  number_of_kilometers                             Int                             MEDIUMINT
  car_color                                        String                          VARCHAR(20)
  wheel_brand                                      String                          VARCHAR(15)
