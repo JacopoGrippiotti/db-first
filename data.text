@@ -1,14 +1,14 @@
 
  Table's name: used cars for sale
 
- id                                               Int                             MEDIUMINT UNSIGNED AUTOINCREMENT PRIMARY_KEY
- car_brand                                        String                          VARCHAR(25)
- car_model                                        String                          VARCHAR(250)
- frame_year                                       Date                            YEAR
- selling_price                                    Float                           (8,2)
- number_of_kilometers                             Int                             MEDIUMINT
- car_color                                        String                          VARCHAR(20)
- wheel_brand                                      String                          VARCHAR(15)
- engine_model                                     String                          VARCHAR(20)
- type_of_exhaust_pipe                             String                          VARCHAR(20)
- description                                      String                          TEXT
+ id                                               Int                             MEDIUMINT UNSIGNED AUTOINCREMENT PRIMARY_KEY 
+ car_brand                                        String                          VARCHAR(25) NOT NULL
+ car_model                                        String                          VARCHAR(250) NOT NULL
+ frame_year                                       Date                            YEAR         NOT NULL
+ selling_price                                    Float                           (8,2)        NOT NULL
+ number_of_kilometers                             Int                             MEDIUMINT    NOT NULL
+ car_color                                        String                          VARCHAR(20)  NOT NULL
+ wheel_brand                                      String                          VARCHAR(15)  NOT NULL
+ engine_model                                     String                          VARCHAR(20)  NULL
+ type_of_exhaust_pipe                             String                          VARCHAR(20)  NULL
+ description                                      String                          TEXT         NULL
